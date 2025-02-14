@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blopiishop - E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Blopiishop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Produits</a></li>
+                <li><a href="#">Panier (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="products">
+        <div class="product" data-id="1">
+            <img src="product1.jpg" alt="Produit 1">
+            <h2>Produit 1</h2>
+            <p class="price">€20.00</p>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+        <div class="product" data-id="2">
+            <img src="product2.jpg" alt="Produit 2">
+            <h2>Produit 2</h2>
+            <p class="price">€30.00</p>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+        <div class="product" data-id="3">
+            <img src="product3.jpg" alt="Produit 3">
+            <h2>Produit 3</h2>
+            <p class="price">€25.00</p>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Blopiishop - Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
